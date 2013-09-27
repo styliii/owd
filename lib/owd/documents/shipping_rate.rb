@@ -17,7 +17,6 @@ module OWD
             doc.tag!('CODE', shipmethod)
           end
         end
-        puts doc.inspect
       end
     end
   end
