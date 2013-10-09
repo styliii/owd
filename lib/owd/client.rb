@@ -38,7 +38,6 @@ module OWD
       request = Net::HTTP::Post.new(uri.request_uri)
       request.body = xml
       request["Content-Type"] = "text/xml"
-
       http.request(request)
     end
 
